@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+</head>
+<body style="background-color: #777777;">
+        <!--Navbar-->
+<section>
+    <div class="navbar">
+           <h2 style=" position: absolute;"> <a href="index.html">SearchingSariSaris.com</a></h2>
+       </div>
+</section>
+        <!--Sign Up Card-->
+<section>
+    <div class="signUpCard" >
+       <form  action="sss_signup.php" method = "post">
+        <div class="signUpCardContent">
+            <span class="signUpBlocker">
+            <h2 style="text-align: center;">
+                Welcome to SearchingSariSaris!
+            </h2>
+            <p style="text-align: center;font-size:smaller">Please fill in information below to join the fun.</p>
+            </span>
+            <span class="signUpFlexer">
+                <span class="signUpBlocker">
+                    <p>Full Name: </p>
+                    <input type="text" name="full_name" id="">
+                </span>
+                <span class="signUpBlocker">
+                    <p>Email: </p>
+                    <input type="text" name="email" id="">
+                </span>
+            </span>
+            <span class="signUpFlexer">
+                <span class="signUpBlocker">
+                    <p>Phone Number:</p>
+                    <input type="text" name="phone_number" id="">
+                </span>
+                <span class="signUpBlocker">
+                    <p>Address:</p>
+                    <input type="text" name="address" id="">
+                </span>
+            </span>
+        <span class="signUpBlocker">
+            <p>Username:</p>
+            <input type="text" name="user_name" id="">
+        </span>
+        <span class="signUpFlexer">
+            <span class="signUpBlocker">
+                <p>Password:</p>
+                <input type="password" name="password" id="">
+            </span>
+            <span class="signUpBlocker">
+                <p>Confirm Password:</p>
+                <input type="password" name="confirm_password" id="">
+            </span>
+        </span>
+
+            <span class="signUpBlocker">
+                <p>I am a: </p>
+                <span class="signUpFlexer" >
+                  
+                    <span style="margin: 2% 10% 2% 10%">
+                        <input type="radio" id="html" name="user_role" value="SELLER">
+                        <label for="SELLER">SELLER</label>
+                            &nbsp;&nbsp;
+                        <input type="radio" id="css" name="user_role" value="CUSTOMER">
+                        <label for="CUSTOMER">CUSTOMER</label>
+                    </span> 
+                </span>
+            </span>
+        <input type="button" style=" margin: 0% 5% 0% 5%;width: 90%; align-self: center;" name = "signupsave" value="SIGN UP">
+    </div>
+</form>
+</div>
+</section>
+</body>
+</html>
